@@ -32,7 +32,9 @@ APP_DIR = os.path.join(BASE_DIR, 'fruitsApp')
 # MEDIA_URL = '/static/'
 MEDIA_ROOT = os.path.join(APP_DIR, 'static')
 
-print(MEDIA_ROOT)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# print(MEDIA_ROOT)
 # Application definition
 
 INSTALLED_APPS = [
