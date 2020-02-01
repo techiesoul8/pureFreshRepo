@@ -35,7 +35,6 @@
 
 
 #top-padding {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -45,8 +44,8 @@
             #top-padding .top-nav-bar {
                 float: right;
                 list-style-type:none
-                margin-right: 0;
-                padding: 1%;
+                margin: 0;
+                padding: 0;
                 overflow: hidden;
             }
 
