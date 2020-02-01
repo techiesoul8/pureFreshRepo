@@ -22,7 +22,6 @@ from cart.views import cart_add
 # ]
 
 # Create your views here.
-
 cart_product_form = CartAddProductForm()
 
 context = {

@@ -29,12 +29,15 @@ ALLOWED_HOSTS = ['nicecloud.pythonanywhere.com', 'localhost']
 
 APP_DIR = os.path.join(BASE_DIR, 'fruitsApp')
 
-# MEDIA_URL = '/static/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(APP_DIR, 'static')
 
+
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-# print(MEDIA_ROOT)
+
+print(STATIC_ROOT)
 
 # Application definition
 
@@ -127,10 +130,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
-
 CART_SESSION_ID = 'cart'
 
-MEDIA_URL = '/media/'
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_URL = '/media/'
+#
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
