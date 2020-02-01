@@ -25,7 +25,7 @@ SECRET_KEY = 'm_2xith5h8$po+)dvy#$=)mzs%pfyo#jg-n-lfb#80i%v6#$q&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nicecloud.pythonanywhere.com']
+ALLOWED_HOSTS = ['nicecloud.pythonanywhere.com', 'localhost']
 
 APP_DIR = os.path.join(BASE_DIR, 'fruitsApp')
 
@@ -34,11 +34,8 @@ MEDIA_ROOT = os.path.join(APP_DIR, 'static')
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-<<<<<<< Updated upstream
 # print(MEDIA_ROOT)
-=======
-print(MEDIA_ROOT)
->>>>>>> Stashed changes
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -135,5 +132,5 @@ STATIC_URL = '/static/'
 CART_SESSION_ID = 'cart'
 
 MEDIA_URL = '/media/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
